@@ -1,0 +1,20 @@
+# AppRabbit QA Challenge (TypeScript + Playwright)
+
+This repo contains two tests as requested:
+1. **API test for the login flow** (TypeScript, using Playwright's API testing).
+2. **UI test with Playwright** that mimics logging into the admin dashboard.
+
+👉 You can create a test account at [https://app.apprabbit.com/login](https://app.apprabbit.com/login) and set the credentials in `.env` (copy from `.env.example`).
+
+---
+
+## Prerequisites
+- Node.js 18+
+- Playwright installed:  
+  ```bash
+  npx playwright install
+
+npm i
+cp .env.example .env
+# edit .env with TEST_EMAIL and TEST_PASSWORD for a test account you create
+npx playwright install

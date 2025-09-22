@@ -1,0 +1,27 @@
+{
+  "name": "apprabbit-qa-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "PWDEBUG=1 playwright test --headed",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://app.apprabbit.com/login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
